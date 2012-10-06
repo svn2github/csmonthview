@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFBEC9BB161FBF3A00DA0666 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBEC9BA161FBF3A00DA0666 /* Cocoa.framework */; };
+		CFBEC9C5161FBF3A00DA0666 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFBEC9C3161FBF3A00DA0666 /* InfoPlist.strings */; };
+		CFBEC9C7161FBF3A00DA0666 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBEC9C6161FBF3A00DA0666 /* main.m */; };
+		CFBEC9CB161FBF3A00DA0666 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CFBEC9C9161FBF3A00DA0666 /* Credits.rtf */; };
+		CFBEC9CE161FBF3A00DA0666 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBEC9CD161FBF3A00DA0666 /* AppDelegate.m */; };
+		CFBEC9D1161FBF3B00DA0666 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFBEC9CF161FBF3B00DA0666 /* MainMenu.xib */; };
+		CFBEC9D9161FBF3B00DA0666 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBEC9D8161FBF3B00DA0666 /* SenTestingKit.framework */; };
+		CFBEC9DA161FBF3B00DA0666 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBEC9BA161FBF3A00DA0666 /* Cocoa.framework */; };
+		CFBEC9E2161FBF3B00DA0666 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFBEC9E0161FBF3B00DA0666 /* InfoPlist.strings */; };
+		CFBEC9E5161FBF3B00DA0666 /* CSMonthView_DEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBEC9E4161FBF3B00DA0666 /* CSMonthView_DEMOTests.m */; };
+		CFBEC9F8161FBF9F00DA0666 /* CSCalendarMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBEC9EF161FBF9F00DA0666 /* CSCalendarMonth.m */; };
+		CFBEC9F9161FBF9F00DA0666 /* CSEventSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBEC9F1161FBF9F00DA0666 /* CSEventSource.m */; };
+		CFBEC9FA161FBF9F00DA0666 /* CSEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBEC9F3161FBF9F00DA0666 /* CSEventView.m */; };
+		CFBEC9FB161FBF9F00DA0666 /* CSMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBEC9F5161FBF9F00DA0666 /* CSMonthView.m */; };
+		CFBEC9FC161FBF9F00DA0666 /* CSWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBEC9F7161FBF9F00DA0666 /* CSWeekView.m */; };
+		CFBECA07161FC02600DA0666 /* NextMonthItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBECA06161FC02600DA0666 /* NextMonthItem.m */; };
+		CFBECA0A161FC03900DA0666 /* CalendarWindowMac.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBECA09161FC03900DA0666 /* CalendarWindowMac.m */; };
+		CFBECA0C161FC04F00DA0666 /* CalendarWindow.Mac.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFBECA0B161FC04F00DA0666 /* CalendarWindow.Mac.xib */; };
+		CFBECA11161FC18E00DA0666 /* GeneralFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBECA10161FC18E00DA0666 /* GeneralFunctions.m */; };
+		CFBECA1A161FD29800DA0666 /* CalendarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBECA17161FD29800DA0666 /* CalendarItem.m */; };
+		CFBECA1B161FD29800DA0666 /* HoverTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBECA19161FD29800DA0666 /* HoverTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFBEC9DB161FBF3B00DA0666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFBEC9AD161FBF3A00DA0666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFBEC9B5161FBF3A00DA0666;
+			remoteInfo = "CSMonthView DEMO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFBEC9B6161FBF3A00DA0666 /* CSMonthView DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSMonthView DEMO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBEC9BA161FBF3A00DA0666 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CFBEC9BD161FBF3A00DA0666 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CFBEC9BE161FBF3A00DA0666 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CFBEC9BF161FBF3A00DA0666 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFBEC9C2161FBF3A00DA0666 /* CSMonthView DEMO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSMonthView DEMO-Info.plist"; sourceTree = "<group>"; };
+		CFBEC9C4161FBF3A00DA0666 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFBEC9C6161FBF3A00DA0666 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFBEC9C8161FBF3A00DA0666 /* CSMonthView DEMO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSMonthView DEMO-Prefix.pch"; sourceTree = "<group>"; };
+		CFBEC9CA161FBF3A00DA0666 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CFBEC9CC161FBF3A00DA0666 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "CSMonthView DEMO/AppDelegate.h"; sourceTree = "<group>"; };
+		CFBEC9CD161FBF3A00DA0666 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "CSMonthView DEMO/AppDelegate.m"; sourceTree = "<group>"; };
+		CFBEC9D0161FBF3B00DA0666 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CFBEC9D7161FBF3B00DA0666 /* CSMonthView DEMOTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSMonthView DEMOTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBEC9D8161FBF3B00DA0666 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CFBEC9DF161FBF3B00DA0666 /* CSMonthView DEMOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSMonthView DEMOTests-Info.plist"; sourceTree = "<group>"; };
+		CFBEC9E1161FBF3B00DA0666 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFBEC9E3161FBF3B00DA0666 /* CSMonthView_DEMOTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSMonthView_DEMOTests.h; sourceTree = "<group>"; };
+		CFBEC9E4161FBF3B00DA0666 /* CSMonthView_DEMOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSMonthView_DEMOTests.m; sourceTree = "<group>"; };
+		CFBEC9EE161FBF9F00DA0666 /* CSCalendarMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCalendarMonth.h; sourceTree = "<group>"; };
+		CFBEC9EF161FBF9F00DA0666 /* CSCalendarMonth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCalendarMonth.m; sourceTree = "<group>"; };
+		CFBEC9F0161FBF9F00DA0666 /* CSEventSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSEventSource.h; sourceTree = "<group>"; };
+		CFBEC9F1161FBF9F00DA0666 /* CSEventSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSEventSource.m; sourceTree = "<group>"; };
+		CFBEC9F2161FBF9F00DA0666 /* CSEventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSEventView.h; sourceTree = "<group>"; };
+		CFBEC9F3161FBF9F00DA0666 /* CSEventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSEventView.m; sourceTree = "<group>"; };
+		CFBEC9F4161FBF9F00DA0666 /* CSMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMonthView.h; sourceTree = "<group>"; };
+		CFBEC9F5161FBF9F00DA0666 /* CSMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMonthView.m; sourceTree = "<group>"; };
+		CFBEC9F6161FBF9F00DA0666 /* CSWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSWeekView.h; sourceTree = "<group>"; };
+		CFBEC9F7161FBF9F00DA0666 /* CSWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSWeekView.m; sourceTree = "<group>"; };
+		CFBECA05161FC02600DA0666 /* NextMonthItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextMonthItem.h; sourceTree = "<group>"; };
+		CFBECA06161FC02600DA0666 /* NextMonthItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextMonthItem.m; sourceTree = "<group>"; };
+		CFBECA08161FC03900DA0666 /* CalendarWindowMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarWindowMac.h; sourceTree = "<group>"; };
+		CFBECA09161FC03900DA0666 /* CalendarWindowMac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarWindowMac.m; sourceTree = "<group>"; };
+		CFBECA0B161FC04F00DA0666 /* CalendarWindow.Mac.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarWindow.Mac.xib; sourceTree = "<group>"; };
+		CFBECA0F161FC18E00DA0666 /* GeneralFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralFunctions.h; sourceTree = "<group>"; };
+		CFBECA10161FC18E00DA0666 /* GeneralFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralFunctions.m; sourceTree = "<group>"; };
+		CFBECA16161FD29800DA0666 /* CalendarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarItem.h; sourceTree = "<group>"; };
+		CFBECA17161FD29800DA0666 /* CalendarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarItem.m; sourceTree = "<group>"; };
+		CFBECA18161FD29800DA0666 /* HoverTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoverTextField.h; sourceTree = "<group>"; };
+		CFBECA19161FD29800DA0666 /* HoverTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoverTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFBEC9B3161FBF3A00DA0666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBEC9BB161FBF3A00DA0666 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBEC9D3161FBF3B00DA0666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBEC9D9161FBF3B00DA0666 /* SenTestingKit.framework in Frameworks */,
+				CFBEC9DA161FBF3B00DA0666 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFBEC9AB161FBF3A00DA0666 = {
+			isa = PBXGroup;
+			children = (
+				CFBEC9CC161FBF3A00DA0666 /* AppDelegate.h */,
+				CFBEC9CD161FBF3A00DA0666 /* AppDelegate.m */,
+				CFBECA04161FC02600DA0666 /* ViewItems */,
+				CFBECA0B161FC04F00DA0666 /* CalendarWindow.Mac.xib */,
+				CFBECA08161FC03900DA0666 /* CalendarWindowMac.h */,
+				CFBECA09161FC03900DA0666 /* CalendarWindowMac.m */,
+				CFBEC9EE161FBF9F00DA0666 /* CSCalendarMonth.h */,
+				CFBEC9EF161FBF9F00DA0666 /* CSCalendarMonth.m */,
+				CFBEC9F0161FBF9F00DA0666 /* CSEventSource.h */,
+				CFBEC9F1161FBF9F00DA0666 /* CSEventSource.m */,
+				CFBEC9F2161FBF9F00DA0666 /* CSEventView.h */,
+				CFBEC9F3161FBF9F00DA0666 /* CSEventView.m */,
+				CFBEC9F4161FBF9F00DA0666 /* CSMonthView.h */,
+				CFBEC9F5161FBF9F00DA0666 /* CSMonthView.m */,
+				CFBEC9F6161FBF9F00DA0666 /* CSWeekView.h */,
+				CFBEC9F7161FBF9F00DA0666 /* CSWeekView.m */,
+				CFBECA0F161FC18E00DA0666 /* GeneralFunctions.h */,
+				CFBECA10161FC18E00DA0666 /* GeneralFunctions.m */,
+				CFBEC9C0161FBF3A00DA0666 /* CSMonthView DEMO */,
+				CFBEC9DD161FBF3B00DA0666 /* CSMonthView DEMOTests */,
+				CFBEC9B9161FBF3A00DA0666 /* Frameworks */,
+				CFBEC9B7161FBF3A00DA0666 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFBEC9B7161FBF3A00DA0666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFBEC9B6161FBF3A00DA0666 /* CSMonthView DEMO.app */,
+				CFBEC9D7161FBF3B00DA0666 /* CSMonthView DEMOTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFBEC9B9161FBF3A00DA0666 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFBEC9BA161FBF3A00DA0666 /* Cocoa.framework */,
+				CFBEC9D8161FBF3B00DA0666 /* SenTestingKit.framework */,
+				CFBEC9BC161FBF3A00DA0666 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFBEC9BC161FBF3A00DA0666 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFBEC9BD161FBF3A00DA0666 /* AppKit.framework */,
+				CFBEC9BE161FBF3A00DA0666 /* CoreData.framework */,
+				CFBEC9BF161FBF3A00DA0666 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CFBEC9C0161FBF3A00DA0666 /* CSMonthView DEMO */ = {
+			isa = PBXGroup;
+			children = (
+				CFBEC9CF161FBF3B00DA0666 /* MainMenu.xib */,
+				CFBEC9C1161FBF3A00DA0666 /* Supporting Files */,
+			);
+			path = "CSMonthView DEMO";
+			sourceTree = "<group>";
+		};
+		CFBEC9C1161FBF3A00DA0666 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFBEC9C2161FBF3A00DA0666 /* CSMonthView DEMO-Info.plist */,
+				CFBEC9C3161FBF3A00DA0666 /* InfoPlist.strings */,
+				CFBEC9C6161FBF3A00DA0666 /* main.m */,
+				CFBEC9C8161FBF3A00DA0666 /* CSMonthView DEMO-Prefix.pch */,
+				CFBEC9C9161FBF3A00DA0666 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFBEC9DD161FBF3B00DA0666 /* CSMonthView DEMOTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFBEC9E3161FBF3B00DA0666 /* CSMonthView_DEMOTests.h */,
+				CFBEC9E4161FBF3B00DA0666 /* CSMonthView_DEMOTests.m */,
+				CFBEC9DE161FBF3B00DA0666 /* Supporting Files */,
+			);
+			path = "CSMonthView DEMOTests";
+			sourceTree = "<group>";
+		};
+		CFBEC9DE161FBF3B00DA0666 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFBEC9DF161FBF3B00DA0666 /* CSMonthView DEMOTests-Info.plist */,
+				CFBEC9E0161FBF3B00DA0666 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFBECA04161FC02600DA0666 /* ViewItems */ = {
+			isa = PBXGroup;
+			children = (
+				CFBECA16161FD29800DA0666 /* CalendarItem.h */,
+				CFBECA17161FD29800DA0666 /* CalendarItem.m */,
+				CFBECA18161FD29800DA0666 /* HoverTextField.h */,
+				CFBECA19161FD29800DA0666 /* HoverTextField.m */,
+				CFBECA05161FC02600DA0666 /* NextMonthItem.h */,
+				CFBECA06161FC02600DA0666 /* NextMonthItem.m */,
+			);
+			path = ViewItems;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFBEC9B5161FBF3A00DA0666 /* CSMonthView DEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBEC9E8161FBF3B00DA0666 /* Build configuration list for PBXNativeTarget "CSMonthView DEMO" */;
+			buildPhases = (
+				CFBEC9B2161FBF3A00DA0666 /* Sources */,
+				CFBEC9B3161FBF3A00DA0666 /* Frameworks */,
+				CFBEC9B4161FBF3A00DA0666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CSMonthView DEMO";
+			productName = "CSMonthView DEMO";
+			productReference = CFBEC9B6161FBF3A00DA0666 /* CSMonthView DEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFBEC9D6161FBF3B00DA0666 /* CSMonthView DEMOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBEC9EB161FBF3B00DA0666 /* Build configuration list for PBXNativeTarget "CSMonthView DEMOTests" */;
+			buildPhases = (
+				CFBEC9D2161FBF3B00DA0666 /* Sources */,
+				CFBEC9D3161FBF3B00DA0666 /* Frameworks */,
+				CFBEC9D4161FBF3B00DA0666 /* Resources */,
+				CFBEC9D5161FBF3B00DA0666 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFBEC9DC161FBF3B00DA0666 /* PBXTargetDependency */,
+			);
+			name = "CSMonthView DEMOTests";
+			productName = "CSMonthView DEMOTests";
+			productReference = CFBEC9D7161FBF3B00DA0666 /* CSMonthView DEMOTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFBEC9AD161FBF3A00DA0666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Elijah;
+			};
+			buildConfigurationList = CFBEC9B0161FBF3A00DA0666 /* Build configuration list for PBXProject "CSMonthView DEMO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFBEC9AB161FBF3A00DA0666;
+			productRefGroup = CFBEC9B7161FBF3A00DA0666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFBEC9B5161FBF3A00DA0666 /* CSMonthView DEMO */,
+				CFBEC9D6161FBF3B00DA0666 /* CSMonthView DEMOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFBEC9B4161FBF3A00DA0666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBEC9C5161FBF3A00DA0666 /* InfoPlist.strings in Resources */,
+				CFBEC9CB161FBF3A00DA0666 /* Credits.rtf in Resources */,
+				CFBEC9D1161FBF3B00DA0666 /* MainMenu.xib in Resources */,
+				CFBECA0C161FC04F00DA0666 /* CalendarWindow.Mac.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBEC9D4161FBF3B00DA0666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBEC9E2161FBF3B00DA0666 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CFBEC9D5161FBF3B00DA0666 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFBEC9B2161FBF3A00DA0666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBEC9C7161FBF3A00DA0666 /* main.m in Sources */,
+				CFBEC9CE161FBF3A00DA0666 /* AppDelegate.m in Sources */,
+				CFBEC9F8161FBF9F00DA0666 /* CSCalendarMonth.m in Sources */,
+				CFBEC9F9161FBF9F00DA0666 /* CSEventSource.m in Sources */,
+				CFBEC9FA161FBF9F00DA0666 /* CSEventView.m in Sources */,
+				CFBEC9FB161FBF9F00DA0666 /* CSMonthView.m in Sources */,
+				CFBEC9FC161FBF9F00DA0666 /* CSWeekView.m in Sources */,
+				CFBECA07161FC02600DA0666 /* NextMonthItem.m in Sources */,
+				CFBECA0A161FC03900DA0666 /* CalendarWindowMac.m in Sources */,
+				CFBECA11161FC18E00DA0666 /* GeneralFunctions.m in Sources */,
+				CFBECA1A161FD29800DA0666 /* CalendarItem.m in Sources */,
+				CFBECA1B161FD29800DA0666 /* HoverTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBEC9D2161FBF3B00DA0666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBEC9E5161FBF3B00DA0666 /* CSMonthView_DEMOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFBEC9DC161FBF3B00DA0666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFBEC9B5161FBF3A00DA0666 /* CSMonthView DEMO */;
+			targetProxy = CFBEC9DB161FBF3B00DA0666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFBEC9C3161FBF3A00DA0666 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBEC9C4161FBF3A00DA0666 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CFBEC9C9161FBF3A00DA0666 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBEC9CA161FBF3A00DA0666 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CFBEC9CF161FBF3B00DA0666 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBEC9D0161FBF3B00DA0666 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CFBEC9E0161FBF3B00DA0666 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBEC9E1161FBF3B00DA0666 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFBEC9E6161FBF3B00DA0666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CFBEC9E7161FBF3B00DA0666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CFBEC9E9161FBF3B00DA0666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSMonthView DEMO/CSMonthView DEMO-Prefix.pch";
+				INFOPLIST_FILE = "CSMonthView DEMO/CSMonthView DEMO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CFBEC9EA161FBF3B00DA0666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSMonthView DEMO/CSMonthView DEMO-Prefix.pch";
+				INFOPLIST_FILE = "CSMonthView DEMO/CSMonthView DEMO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CFBEC9EC161FBF3B00DA0666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CSMonthView DEMO.app/Contents/MacOS/CSMonthView DEMO";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSMonthView DEMO/CSMonthView DEMO-Prefix.pch";
+				INFOPLIST_FILE = "CSMonthView DEMOTests/CSMonthView DEMOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CFBEC9ED161FBF3B00DA0666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CSMonthView DEMO.app/Contents/MacOS/CSMonthView DEMO";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSMonthView DEMO/CSMonthView DEMO-Prefix.pch";
+				INFOPLIST_FILE = "CSMonthView DEMOTests/CSMonthView DEMOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFBEC9B0161FBF3A00DA0666 /* Build configuration list for PBXProject "CSMonthView DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBEC9E6161FBF3B00DA0666 /* Debug */,
+				CFBEC9E7161FBF3B00DA0666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBEC9E8161FBF3B00DA0666 /* Build configuration list for PBXNativeTarget "CSMonthView DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBEC9E9161FBF3B00DA0666 /* Debug */,
+				CFBEC9EA161FBF3B00DA0666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBEC9EB161FBF3B00DA0666 /* Build configuration list for PBXNativeTarget "CSMonthView DEMOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBEC9EC161FBF3B00DA0666 /* Debug */,
+				CFBEC9ED161FBF3B00DA0666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFBEC9AD161FBF3A00DA0666 /* Project object */;
+}
