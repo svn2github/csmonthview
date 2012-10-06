@@ -149,14 +149,14 @@
     item = [[CSEventSource alloc] init];
     item.day_of_the_week = 5;
     item.week_number = 1;
-    item.label = @"a";
+    item.label = @"Event 1";
     
     [times addObject:item];
     
     
     item = [[CSEventSource alloc] init];
     [item setWithCSCalendarMonth:calendar andMonth:calendar.month andDay:5];
-    item.label = @"a";
+    item.label = @"Event 2";
     
     [times addObject:item];
     
@@ -165,14 +165,14 @@
         // on the last day of last month
         item = [[CSEventSource alloc] init];
         [item setWithCSCalendarMonth:calendar andMonth:calendar.month-1 andDay:calendar.days_in_last_month];
-        item.label = @"a";
+        item.label = @"Event 0";
         
         [times addObject:item];
         
         // on the first day of next month
         item = [[CSEventSource alloc] init];
         [item setWithCSCalendarMonth:calendar andMonth:calendar.month+1 andDay:1];
-        item.label = @"a";
+        item.label = @"Event 3";
         
         [times addObject:item];
         
