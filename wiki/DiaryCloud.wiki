@@ -1,0 +1,15 @@
+#summary One-sentence summary of this page.
+#labels Featured
+
+= Introduction =
+
+An diary storage service with a front end in OS X and iOS (iPhone and iPad).
+
+
+= Details =
+
+- http://www.DiaryCloud.com
+- Encrypts diary entries and folders and synchronizes them across devices
+- Stores a backup copy of the entries and folders on the cloud server
+- Free for offline usage, $4.99 a year for cloud services.
+- Yet to be finalized and released.
