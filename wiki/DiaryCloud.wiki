@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary An in development iOS and OS X app for the app store.
 #labels Featured
 
 = Introduction =
